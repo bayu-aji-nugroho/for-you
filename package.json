@@ -6,6 +6,7 @@
   "homepage": "https://bayu-aji-nugroho.github.io/for-you/",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
     "deploy": "vite build && gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
